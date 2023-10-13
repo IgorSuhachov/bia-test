@@ -1,6 +1,9 @@
 /*NORMALIZE*/
 @import url(./vendor/normalize.css);
 
+/*REMIX ICONS*/
+@import 'remixicon/fonts/remixicon.css';
+
 /*FONTS*/
 @import url(./vendor/fonts/font.scss);
 

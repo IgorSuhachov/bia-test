@@ -1,0 +1,51 @@
+.navigation {
+  background-color: #fff;
+  width: 60px;
+  min-height: 100vh;
+  box-shadow: 0 2px 2px 0 rgba(34, 62, 78, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 6px;
+  margin-bottom: 20px;
+}
+
+.navigation__text {
+  font-family: 'Stolzl';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.nav__bot {
+  margin-top: auto;
+}
+
+.navigation__elements {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__button {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #b8c4db;
+}
+
+.navigation__button_active {
+  background-color: #f4f6f9;
+  border-left: 4px solid #f0303f;
+  color: #3c4049;
+}
