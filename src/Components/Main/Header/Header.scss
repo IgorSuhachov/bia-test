@@ -1,0 +1,42 @@
+.header {
+  font-family: 'Stolzl';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.header__notify {
+  border: none;
+  background-color: #fff;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.header__user {
+  cursor: pointer;
+}
+
+.header__avatar {
+  border: none;
+  background-color: #2b2d35;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  padding: 0;
+}

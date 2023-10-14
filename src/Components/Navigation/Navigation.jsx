@@ -3,12 +3,11 @@ import Logo from '../../images/logo.svg';
 
 export default function Navigation() {
   return (
-    <div className="navigation">
+    <nav className="navigation">
       <div className="navigation__logo">
         <img src={Logo} alt="логотип" />
         <p className="navigation__text">tmc</p>
       </div>
-
       <div className="nav__top">
         <ul className="navigation__elements">
           <li className="navigation__element">
@@ -18,7 +17,7 @@ export default function Navigation() {
           </li>
           <li className="navigation__element">
             <button className="navigation__button">
-              <i class="ri-booklet-line ri-xl"></i>
+              <i className="ri-booklet-line ri-xl"></i>
             </button>
           </li>
           <li className="navigation__element">
@@ -50,9 +49,9 @@ export default function Navigation() {
       </div>
       <div className="nav__bot">
         <button className="navigation__button">
-          <i class="ri-arrow-right-circle-line ri-xl"></i>
+          <i className="ri-arrow-right-circle-line ri-xl"></i>
         </button>
       </div>
-    </div>
+    </nav>
   );
 }

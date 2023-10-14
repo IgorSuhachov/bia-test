@@ -13,17 +13,11 @@
 /*NAVIGATION*/
 @import url(./Components/Navigation/Navigation.scss);
 
-/*
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-@import url(./Components);
-*/
+/*MAIN*/
+@import url(./Components/Main/Main.scss);
+
+/*WORKSPACE*/
+@import url(./Components/Main/Workspace/Workspace.scss);
+
+/*HEADER*/
+@import url(./Components/Main/Header/Header.scss);
