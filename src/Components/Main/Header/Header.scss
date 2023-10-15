@@ -25,10 +25,20 @@
   height: 40px;
   cursor: pointer;
   padding: 0;
+  transition: opacity 0.3s ease;
+}
+
+.header__notify:hover {
+  opacity: 0.8;
 }
 
 .header__user {
   cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.header__user:hover {
+  opacity: 0.8;
 }
 
 .header__avatar {

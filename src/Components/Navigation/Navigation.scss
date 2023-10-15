@@ -43,6 +43,11 @@
   cursor: pointer;
   background-color: transparent;
   color: #b8c4db;
+  transition: opacity 0.3s ease;
+}
+
+.navigation__button:hover {
+  opacity: 0.8;
 }
 
 .navigation__button_active {
