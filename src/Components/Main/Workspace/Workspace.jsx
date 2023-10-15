@@ -10,7 +10,7 @@ export default function Workspace() {
           <button className="workspace__filters">Фильтры</button>
         </div>
         <div className="workspace__wrapper">
-          <select name="month" id="">
+          <select name="month" id="" className="workspace__select">
             <option value="">Январь</option>
             <option value="">Февраль</option>
             <option value="">Март</option>
@@ -24,7 +24,7 @@ export default function Workspace() {
             <option value="">Ноябрь</option>
             <option value="">Декабрь</option>
           </select>
-          <select name="city" id="">
+          <select name="city" id="" className="workspace__select">
             <option value="">Москва</option>
             <option value="">Санкт-Петербург</option>
             <option value="">Казань</option>

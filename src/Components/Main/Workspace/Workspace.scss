@@ -42,4 +42,16 @@
 .workspace__wrapper {
   display: flex;
   gap: 20px;
+
+  .workspace__select {
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid #eaeef4;
+    background-color: transparent;
+    padding: 6px 12px;
+  }
+
+  .workspace__select:focus {
+    outline: none;
+  }
 }
