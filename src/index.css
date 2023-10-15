@@ -21,3 +21,6 @@
 
 /*HEADER*/
 @import url(./Components/Main/Header/Header.scss);
+
+/*CALENDAR*/
+@import url(./Components/Main/Workspace/Calendar/Calendar.scss);
